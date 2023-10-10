@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 35px;
 }
 
 .NavBar nav ul {
@@ -22,11 +23,23 @@
 
 .NavBar nav ul li a {
   text-decoration: none;
-  color: blueviolet;
+  color: #e5e3dc;
 }
 
-.NavBar a:hover {
-  border-bottom: 5px solid green;
+.NavBar .HomeT:hover {
+  border-bottom: 1px solid #ddc3f5;
+}
+
+.NavBar .AboutT:hover {
+  border-bottom: 1px solid #aed4ff;
+}
+
+.NavBar .SkillsT:hover {
+  border-bottom: 1px solid #b2ffc3;
+}
+
+.NavBar .WorkT:hover {
+  border-bottom: 1px solid #ffe78c;
 }
 
 .NavBar .MobileNavigation {
@@ -54,8 +67,8 @@
     top: 80px;
     right: 0;
     width: 100%;
-    background-color: blanchedalmond;
-    border-top: 2px solid palevioletred;
+    background-color: #000000;
+    border-top: 1px solid #e5e3dc;
   }
 
   .NavBar nav ul li {
@@ -64,8 +77,23 @@
   .NavBar {
     opacity: 1;
   }
-  .NavBar a:hover {
-    /* border-bottom: none; */
-    color: gold;
+  .NavBar .HomeT:hover {
+    border-bottom: none;
+    color: #ddc3f5;
+  }
+
+  .NavBar .AboutT:hover {
+    border-bottom: none;
+    color: #aed4ff;
+  }
+
+  .NavBar .SkillsT:hover {
+    border-bottom: none;
+    color: #b2ffc3;
+  }
+
+  .NavBar .WorkT:hover {
+    border-bottom: none;
+    color: #ffe78c;
   }
 }

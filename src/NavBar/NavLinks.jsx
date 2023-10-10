@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import classes from "./NavBar.module.css";
 
 const NavLinks = (props) => {
   const animateFrom = { opacity: 0, y: -40 };
@@ -12,7 +13,9 @@ const NavLinks = (props) => {
         transition={{ delay: 0.05 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <a href="./">Home</a>
+        <a href="/" className={classes.HomeT}>
+          Home
+        </a>
       </motion.li>
       <motion.li
         initial={animateFrom}
@@ -20,7 +23,9 @@ const NavLinks = (props) => {
         transition={{ delay: 0.1 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <a href="/">About Me</a>
+        <a href="/#about" className={classes.AboutT}>
+          About Me
+        </a>
       </motion.li>
       <motion.li
         initial={animateFrom}
@@ -28,7 +33,9 @@ const NavLinks = (props) => {
         transition={{ delay: 0.2 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <a href="/">Skills</a>
+        <a href="/#skills" className={classes.SkillsT}>
+          Skills
+        </a>
       </motion.li>
       <motion.li
         initial={animateFrom}
@@ -36,7 +43,9 @@ const NavLinks = (props) => {
         transition={{ delay: 0.3 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <a href="/">Work</a>
+        <a href="/#work" className={classes.WorkT}>
+          Work
+        </a>
       </motion.li>
     </ul>
   );

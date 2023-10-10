@@ -1,7 +1,11 @@
-/* .App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+.App {
+  background-color: #e5e3dc; /*#dbd8cc*/
+  font-family: "Young Serif", serif;
+  font-size: 16px;
 }
 
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;

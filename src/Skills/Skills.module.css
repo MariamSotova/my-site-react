@@ -1,5 +1,49 @@
 .Skills {
-  background-color: rgb(119, 255, 0);
-  height: 500px;
-  padding-top: 80px;
+  padding-bottom: 20px;
+  color: #000000;
+}
+
+.Skills p {
+  font-size: 20px;
+  padding-left: 25%;
+  width: 50%;
+}
+
+.Skills .Container {
+  padding: 0 20px;
+  display: flex;
+}
+
+.Skills .List ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.Skills .Container .List {
+  margin: 10px;
+  flex-basis: 26%;
+  background-color: #000000;
+  color: #aed4ff;
+}
+
+.Skills .Container .List:hover {
+  color: #b2ffc3;
+  cursor: default;
+}
+
+.Skills .List ul li {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  .Skills .Container {
+    padding: 0 20px;
+    display: block;
+  }
+
+  .Skills .Container .List {
+    flex-basis: 26%;
+  }
 }

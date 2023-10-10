@@ -1,5 +1,18 @@
 .Home {
-  background-color: aqua;
+  background-color: #e5e3dc;
   height: 500px;
   padding-top: 80px;
+  text-align: center;
+}
+
+.Home .Container {
+  padding: 0 20px;
+}
+
+.Home .Container h1 {
+  margin: 0;
+}
+
+.Home img {
+  padding-left: 10px;
 }

@@ -1,16 +1,28 @@
 import classes from "./Home.module.css";
-import code from "./../img/code-circle.svg";
+import github from "./../img/github.svg";
+import linkedin from "./../img/linkedin-icon.svg";
 import PageHeader from "./../PageHeader/PageHeader";
 
 const Home = () => {
   return (
     <div className={classes.Home}>
       <PageHeader title={"Home"} />
-      <div className={classes.Container}>
-        <h1>Hi</h1>
-        <p>text</p>
-      </div>
-      <img className={classes.Code} src={code} alt="code"></img>
+      <div className={classes.Container}></div>
+
+      <a
+        href="https://github.com/MariamSotova"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img className={classes.github} src={github} alt="code"></img>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/mariam-sotova-1467ba272/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img className={classes.linkedin} src={linkedin} alt="code"></img>
+      </a>
     </div>
   );
 };

@@ -1,5 +1,8 @@
 .Work {
   background-color: rgb(247, 0, 255);
   height: 500px;
-  padding-top: 80px;
+}
+
+.Work .Container {
+  padding: 0 20px;
 }

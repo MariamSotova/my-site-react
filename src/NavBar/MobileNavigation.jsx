@@ -10,7 +10,7 @@ const MobileNavigation = () => {
     <CgMenuRight
       className={classes.Hamburger}
       size="40px"
-      color="blue"
+      color="#e5e3dc"
       onClick={() => setOpen(!open)}
     />
   );
@@ -18,7 +18,7 @@ const MobileNavigation = () => {
     <PiEyeClosed
       className={classes.Hamburger}
       size="40px"
-      color="blue"
+      color="#e5e3dc"
       onClick={() => setOpen(!open)}
     />
   );

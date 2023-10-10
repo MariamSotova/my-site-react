@@ -1,5 +1,42 @@
-.About {
-  background-color: rgb(136, 173, 200);
+/* .AboutMe {
   height: 500px;
-  padding-top: 80px;
+} */
+
+.AboutMe .Container {
+  display: flex;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.AboutMe .Container .Text {
+  width: 47%;
+  margin-left: 3%;
+}
+.AboutMe .Container .Text h2 {
+  font-weight: 900;
+  font-size: 46px;
+}
+
+.AboutMe .Container .Photo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.AboutMe .Container .Photo .Me {
+  height: 250px;
+  border-radius: 10%;
+}
+
+@media (max-width: 670px) {
+  .AboutMe .Container {
+    /* display: flex;
+    padding: 0 20px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AboutMe .Container .Text {
+    width: 100%;
+  }
 }
