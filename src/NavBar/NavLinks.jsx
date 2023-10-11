@@ -47,6 +47,37 @@ const NavLinks = (props) => {
           Work
         </a>
       </motion.li>
+
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.4 }}
+        onClick={() => props.isMobile && props.closeMobileMenu()}
+      >
+        <a
+          href="https://github.com/MariamSotova"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.GitHub}
+        >
+          GitHub
+        </a>
+      </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.5 }}
+        onClick={() => props.isMobile && props.closeMobileMenu()}
+      >
+        <a
+          href="https://www.linkedin.com/in/mariam-sotova-1467ba272/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.Linkedin}
+        >
+          Linkedin
+        </a>
+      </motion.li>
     </ul>
   );
 };

@@ -1,5 +1,5 @@
 import classes from "./Home.module.css";
-import github from "./../img/github.svg";
+import github from "./../img/git-svg.svg";
 import linkedin from "./../img/linkedin-icon.svg";
 import PageHeader from "./../PageHeader/PageHeader";
 
@@ -8,20 +8,19 @@ const Home = () => {
     <div className={classes.Home}>
       <PageHeader title={"Home"} />
       <div className={classes.Container}></div>
-
       <a
         href="https://github.com/MariamSotova"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img className={classes.github} src={github} alt="code"></img>
+        <img src={github} alt="code"></img>
       </a>
       <a
         href="https://www.linkedin.com/in/mariam-sotova-1467ba272/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img className={classes.linkedin} src={linkedin} alt="code"></img>
+        <img src={linkedin} alt="code"></img>
       </a>
     </div>
   );

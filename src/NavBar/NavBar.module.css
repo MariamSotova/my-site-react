@@ -42,6 +42,14 @@
   border-bottom: 1px solid #ffe78c;
 }
 
+.NavBar .GitHub:hover {
+  border-bottom: 1px solid #ddc3f5;
+}
+
+.NavBar .Linkedin:hover {
+  border-bottom: 1px solid #aed4ff;
+}
+
 .NavBar .MobileNavigation {
   display: none;
 }
@@ -95,5 +103,15 @@
   .NavBar .WorkT:hover {
     border-bottom: none;
     color: #ffe78c;
+  }
+
+  .NavBar .Linkedin:hover {
+    border-bottom: none;
+    color: #ddc3f5;
+  }
+
+  .NavBar .GitHub:hover {
+    border-bottom: none;
+    color: #aed4ff;
   }
 }

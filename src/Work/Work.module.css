@@ -1,8 +1,60 @@
 .Work {
-  background-color: rgb(247, 0, 255);
-  height: 500px;
+  background-color: #dbd8cc;
 }
 
 .Work .Container {
   padding: 0 20px;
+}
+
+.Wrpphoto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.PhotoSale {
+  background-color: #ffe78c;
+}
+
+.OtherWorks {
+  background-color: #b2ffc3;
+}
+
+.CatPhoto {
+  background-color: #aed4ff;
+}
+
+.PhotoSale,
+.OtherWorks,
+.CatPhoto {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.PhotoSale img,
+.CatPhoto img,
+.OtherWorks img {
+  width: 25%;
+}
+
+.PhotoSale p,
+.CatPhoto p,
+.OtherWorks p {
+  font-size: 20px;
+}
+
+.PhotoSale a,
+.CatPhoto a {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+}
+
+.PhotoSale a:hover,
+.CatPhoto a:hover {
+  color: #0c74eb;
 }
