@@ -17,10 +17,16 @@
   font-size: 46px;
 }
 
+.AboutMe .Container .Text p {
+  font-weight: 400;
+  font-size: 25px;
+}
+
 .AboutMe .Container .Photo {
   width: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .AboutMe .Container .Photo .Me {
   height: 250px;
@@ -34,6 +40,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
   }
 
   .AboutMe .Container .Text {

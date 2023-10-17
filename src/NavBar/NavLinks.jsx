@@ -13,7 +13,7 @@ const NavLinks = (props) => {
         transition={{ delay: 0.05 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <a href="/" className={classes.HomeT}>
+        <a href="/#home" className={classes.HomeT}>
           Home
         </a>
       </motion.li>

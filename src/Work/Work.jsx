@@ -11,7 +11,7 @@ import design from "./../img/design.png";
 
 const Work = () => {
   return (
-    <div className={classes.Work}>
+    <div id="work" className={classes.Work}>
       <PageHeader title={"Work"} />
       <div className={classes.Container}>
         <div className={classes.Wrpphoto}>

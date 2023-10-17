@@ -5,7 +5,7 @@ import PageHeader from "./../PageHeader/PageHeader";
 
 const Home = () => {
   return (
-    <div className={classes.Home}>
+    <div id="home" className={classes.Home}>
       <PageHeader title={"Home"} />
       <div className={classes.Container}></div>
       <a
