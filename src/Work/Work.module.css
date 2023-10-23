@@ -37,13 +37,13 @@
 .PhotoSale a,
 .CatPhoto a {
   text-decoration: none;
-  color: #aed4ff;
+  color: #4d9ffc;
   font-size: 20px;
 }
 
 .PhotoSale a:hover,
 .CatPhoto a:hover {
-  color: #b2ffc3;
+  color: #3b8eee;
 }
 
 @media (max-width: 720px) {

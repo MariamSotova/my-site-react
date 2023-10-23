@@ -1,10 +1,6 @@
-/* .AboutMe {
-  margin-top: 80px;
-} */
-
 .AboutMe .Container {
   display: flex;
-  padding: 0 20px;
+  padding: 20px;
   font-size: 20px;
 }
 
