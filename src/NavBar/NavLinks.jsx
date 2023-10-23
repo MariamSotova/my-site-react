@@ -7,7 +7,7 @@ const NavLinks = (props) => {
 
   return (
     <ul>
-      <motion.li
+      {/* <motion.li
         initial={animateFrom}
         animate={animateTo}
         transition={{ delay: 0.05 }}
@@ -16,7 +16,7 @@ const NavLinks = (props) => {
         <a href="/#home" className={classes.HomeT}>
           Home
         </a>
-      </motion.li>
+      </motion.li> */}
       <motion.li
         initial={animateFrom}
         animate={animateTo}
@@ -44,7 +44,7 @@ const NavLinks = (props) => {
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
         <a href="/#work" className={classes.WorkT}>
-          Work
+          Projects
         </a>
       </motion.li>
 

@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .App {
-  background-color: #e5e3dc; /*#dbd8cc*/
-  font-family: "Young Serif", serif;
+  background-color: #ffffff; /*#dbd8cc*/
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 

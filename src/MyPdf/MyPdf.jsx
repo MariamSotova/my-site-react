@@ -13,20 +13,24 @@ const MyPdf = () => {
         aTag.href = blobURL;
         aTag.setAttribute("download", fileName);
         document.body.appendChild(aTag);
-        aTag.Click();
+        aTag.click();
         aTag.remove();
       });
   };
 
   return (
-    <div className={classes.File}>
-      <button
-        onClick={() => {
-          downloadFileURL(PDF_FILE_URL);
-        }}
-      >
-        download file
-      </button>
+    <div className={classes.ButtonRainbow}>
+      <div className={classes.File}>
+        <button
+          onClick={() => {
+            downloadFileURL(PDF_FILE_URL);
+          }}
+        >
+          download resume
+        </button>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   );
 };

@@ -12,13 +12,10 @@ import design from "./../img/design.png";
 const Work = () => {
   return (
     <div id="work" className={classes.Work}>
-      <PageHeader title={"Work"} />
+      <PageHeader title={"Projects"} />
       <div className={classes.Container}>
         <div className={classes.Wrpphoto}>
           <div className={classes.PhotoSale}>
-            <img className={classes.sale1} src={sale1} alt="sale"></img>
-            <img className={classes.sale3} src={sale3} alt="sale"></img>
-            <img className={classes.sale2} src={sale2} alt="sale"></img>
             <p>
               About{" "}
               <a
@@ -31,6 +28,9 @@ const Work = () => {
               <br />
               project
             </p>
+            <img className={classes.sale1} src={sale1} alt="sale"></img>
+            <img className={classes.sale3} src={sale3} alt="sale"></img>
+            <img className={classes.sale2} src={sale2} alt="sale"></img>
           </div>
           <div className={classes.CatPhoto}>
             <p>

@@ -6,7 +6,6 @@ const frontendSkills = (
     <li>JavaScript</li>
     <li>TypeScript</li>
     <li>ReactJS</li>
-    <li>Rest API</li>
     <li>Jest</li>
   </ul>
 );
@@ -23,7 +22,6 @@ const webSkills = (
 const otherSkills = (
   <ul>
     <li>Git</li>
-    <li>Json</li>
     <li>Webpack/Gulp</li>
     <li>NPM/Yarn</li>
   </ul>
@@ -43,16 +41,16 @@ const Skills = () => {
   return (
     <div id="skills" className={classes.Skills}>
       <PageHeader title={"What about the Skills?"} />
-      <p>
-        I'm a lifelong learner and enjoy learning new stuff! Below are some
-        programming languages, toolkits, frameworks and libraries I worked with
-        and like. Some of them I control better than others.
-      </p>
       <div className={classes.Container}>
         {totalSkills.map((skills) => {
           return <div className={classes.List}>{skills}</div>;
         })}
       </div>
+      <p>
+        I'm a lifelong learner and enjoy learning new stuff! Below are some
+        programming languages, toolkits, frameworks and libraries I worked with
+        and like. Some of them I control better than others.
+      </p>
     </div>
   );
 };
