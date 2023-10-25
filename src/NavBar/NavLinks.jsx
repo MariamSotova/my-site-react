@@ -70,7 +70,7 @@ const NavLinks = (props) => {
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
         <a
-          href="https://www.linkedin.com/in/mariam-sotova-1467ba272/"
+          href="https://www.linkedin.com/in/msotova/"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.Linkedin}

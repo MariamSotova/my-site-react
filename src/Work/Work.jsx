@@ -6,7 +6,7 @@ import sale3 from "./../img/sale3.png";
 import cat from "./../img/cat-project.png";
 import cat1 from "./../img/cat1.png";
 import cat2 from "./../img/cat2.png";
-import form1 from "./../img/form1.png";
+import form1 from "./../img/income.png";
 import design from "./../img/design.png";
 
 const Work = () => {
@@ -50,7 +50,16 @@ const Work = () => {
             <img className={classes.ca2} src={cat2} alt="cat2"></img>
           </div>
           <div className={classes.OtherWorks}>
-            <p>Other works</p>
+            <p>
+              Other{" "}
+              <a
+                href="https://github.com/MariamSotova/tax-react-app-nl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                works
+              </a>
+            </p>
             <img className={classes.form1} src={form1} alt="form"></img>
             <img className={classes.design} src={design} alt="design"></img>
           </div>

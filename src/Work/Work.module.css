@@ -35,15 +35,17 @@
 }
 
 .PhotoSale a,
-.CatPhoto a {
+.CatPhoto a,
+.OtherWorks a {
   text-decoration: none;
   color: #4d9ffc;
   font-size: 20px;
 }
 
 .PhotoSale a:hover,
-.CatPhoto a:hover {
-  color: #3b8eee;
+.CatPhoto a:hover,
+.OtherWorks a:hover {
+  color: #105ab0;
 }
 
 @media (max-width: 720px) {

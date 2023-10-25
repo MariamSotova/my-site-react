@@ -9,7 +9,7 @@ const About = () => {
         <div className={classes.Text}>
           <h2>Hello</h2>
           <p>
-            My name is Mariam Yan, and I am Front End Developer based in
+            My name is Mariam Sotova, and I am Front End Developer based in
             Rotterdam, Netherlands. I love creating interactive digital
             experiences on the web.
           </p>
