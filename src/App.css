@@ -6,6 +6,10 @@
   font-size: 16px;
 }
 
+body {
+  background-color: #000000;
+}
+
 /*
 .App-logo {
   height: 40vmin;

@@ -47,7 +47,7 @@ const Skills = () => {
         })}
       </div>
       <p>
-        I'm a lifelong learner and enjoy learning new stuff! Below are some
+        I'm a lifelong learner and enjoy learning new stuff! Above are some
         programming languages, toolkits, frameworks and libraries I worked with
         and like. Some of them I control better than others.
       </p>
