@@ -6,6 +6,7 @@ import Skills from "./Skills/Skills";
 import Work from "./Work/Work";
 import PageHeader from "./PageHeader/PageHeader";
 import MyPdf from "./MyPdf/MyPdf";
+// import Confetti from "./ConfettiButton/Confetti";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Work />
       <PageHeader />
       <MyPdf />
+      {/* <Confetti /> */}
     </div>
   );
 }
