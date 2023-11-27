@@ -23,7 +23,10 @@ const NavLinks = (props) => {
         transition={{ delay: 0.1 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <a href="/#about" className={classes.AboutT}>
+        <a
+          href="https://mariamsotova.github.io/my-site-react/#about"
+          className={classes.AboutT}
+        >
           About Me
         </a>
       </motion.li>
@@ -33,7 +36,10 @@ const NavLinks = (props) => {
         transition={{ delay: 0.2 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <a href="/#skills" className={classes.SkillsT}>
+        <a
+          href="https://mariamsotova.github.io/my-site-react/#skills"
+          className={classes.SkillsT}
+        >
           Skills
         </a>
       </motion.li>
@@ -43,7 +49,10 @@ const NavLinks = (props) => {
         transition={{ delay: 0.3 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <a href="/#work" className={classes.WorkT}>
+        <a
+          href="https://mariamsotova.github.io/my-site-react/#work"
+          className={classes.WorkT}
+        >
           Projects
         </a>
       </motion.li>
