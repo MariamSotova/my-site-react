@@ -17,7 +17,8 @@ export default MyPdf;
 
 // private
 
-const PDF_FILE_URL = "http://localhost:3000/CV_Mariam.pdf"; //изменить ссылку на свою страницу
+const PDF_FILE_URL =
+  "https://mariamsotova.github.io/my-site-react/CV_Mariam.pdf"; //изменить ссылку на свою страницу для pdf
 
 function downloadFileURL() {
   const url = PDF_FILE_URL;
