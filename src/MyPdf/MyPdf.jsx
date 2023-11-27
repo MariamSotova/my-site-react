@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./MyPdf.module.css";
+import "../pdf/CV_Mariam.pdf";
 
 const MyPdf = () => {
   return (
@@ -18,7 +19,7 @@ export default MyPdf;
 // private
 
 const PDF_FILE_URL =
-  "https://mariamsotova.github.io/my-site-react/CV_Mariam.pdf"; //изменить ссылку на свою страницу для pdf
+  "https://mariamsotova.github.io/my-site-react/static/media/CV_Mariam.7608107e5c149804197e.pdf"; //изменить ссылку на свою страницу для pdf
 
 function downloadFileURL() {
   const url = PDF_FILE_URL;
